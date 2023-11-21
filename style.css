@@ -24,6 +24,11 @@ a {
     gap: 8px;
 }
 
+.inscription button {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+  
+
 #insImg {
     position: absolute;
     left: 10px;
