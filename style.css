@@ -9,9 +9,6 @@ a {
     text-decoration: none;
 }
 
-/* a:hover {
-    text-decoration:  solid 1px rgb(47, 47, 47);
-} */
 
 
 /* debut Header */
@@ -97,6 +94,10 @@ a {
     font-weight: bolder;
 }
 
+.navbar ul li a:hover {
+    border-bottom: solid 2px #525252;
+}
+
 #cowork {
     display: flex;
     justify-content: center;
@@ -113,8 +114,6 @@ a {
     font-weight: bolder;
     white-space: nowrap;
 }
-
-
 
 /* fin Header */
 
@@ -137,6 +136,7 @@ a {
     font-weight: 400;
     margin-bottom: 0;
 }
+
 
 .line {
     color: #9b009d;
@@ -206,7 +206,7 @@ footer {
     align-items: center;
     gap: 100px;
     height: 200px;
-    border-bottom: solid 0.5px #fdfdfd;
+    border-bottom: solid 0.1px #45423d;
 }
 
 .footerContent:last-of-type {
@@ -242,29 +242,34 @@ footer {
 .fooCont {
     display: flex;
     flex-direction: row;
-    /* gap: 10px; */
 }
 
 .fooCont i {
-    height: 20px;
-    position: relative;
+    height: 15px;
 }
 
+.fooCont div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
 
 .circle {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
     border: solid 2px white;
     border-radius: 50%;
-    /* right: 30px;
-    bottom: 10px; */
-    transform: translate(-72%, -25%);
 }
 
 .footerContent p {
     font-size: 80%;
     color: #45423d;
+}
+
+.fooCont a:hover {
+    border-bottom: solid 2px white;
 }
 
 /* fin Footer */
