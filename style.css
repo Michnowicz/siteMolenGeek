@@ -1,0 +1,251 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    /* color: #525252; */
+    color: rgb(47, 47, 47);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* a:hover {
+    text-decoration:  solid 1px rgb(47, 47, 47);
+} */
+
+
+/* debut Header */
+
+.inscription {
+    height: 35px;
+    width: 100%;
+    background-color: #9b009d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.inscription p {
+    color: white;
+    font-size: 0.7em;
+}
+
+.inscription input {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 0.7em;
+    color: #a9a4a4;
+}
+
+.inscription button {
+    background-color: #00e173;
+    height: 60%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 0.7em;
+    color: white;
+    padding: 0 1% 0 1%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    width: 100%;
+    border-bottom: solid 1px #f0f0f0;
+}
+
+#logo {
+    height: 100%;
+    width: auto;
+    border-right: solid 1px #f0f0f0;
+    padding: 0% 4% 0 4%;
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+.navbar ul {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: #525252;
+    font-size: 0.7em;
+    font-weight: bolder;
+}
+
+#cowork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-left: solid 1px #f0f0f0;
+    padding: 0 4% 0 2%;
+}
+
+#coworking {
+    padding: 20%;
+    color: #525252;
+    font-size: 0.6em;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+
+
+
+/* fin Header */
+
+
+
+
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 12% 10% 12%;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.line {
+    color: #9b009d;
+    text-align: center;
+}
+
+.content p {
+    margin: 2% 0 0 0;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+.content ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 3% 0 10px 0;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+.content ul li::before {
+    content: "•"; color: #9b009d;
+    display: inline-block; width: 1em;
+}
+
+.content h2 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+
+/* fin Content */
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    background-color: #363636;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.footerContent:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 200px;
+    border-bottom: solid 0.5px #fdfdfd;
+}
+
+.footerContent:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.footerContent {
+    height: 200px;
+    display: flex;
+}
+
+.footerContent a {
+    color: white;
+}
+
+.footerContent hr {
+    background-color: white;
+}
+
+#logoFooter {
+    max-height: 30%;
+}
+
+.footerContent p {
+    color: white;
+}
+
+.fooCont {
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+}
+
+.fooCont i {
+    height: 20px;
+    position: relative;
+}
+
+
+.circle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: solid 2px white;
+    border-radius: 50%;
+    /* right: 30px;
+    bottom: 10px; */
+    transform: translate(-72%, -25%);
+}
+
+
+/* fin Footer */
+
